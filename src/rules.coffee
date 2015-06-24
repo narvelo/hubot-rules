@@ -13,6 +13,13 @@ rules = [
   "2. A robot must obey any orders given to it by human beings, except where such orders would conflict with the First Law.",
   "3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law."
   ]
+  
+coworkingRules = [
+  "1. Be helpful: Never leave the coffee pot empty before noon.",
+  "2. Be safe: Always lock up if you're the last one out.",
+  "3. Be productive: Don't interrupt someone when they're wearing headphones.",
+  "4. Be friendly: _Do_ interrupt people who aren't wearing headphones."
+  ]
 
 otherRules = [
   "A developer may not injure Apple or, through inaction, allow Apple to come to harm.",
@@ -25,5 +32,7 @@ module.exports = (robot) ->
     text = msg.message.text
     if text.match(/apple/i) or text.match(/dev/i)
       msg.send otherRules.join('\n')
+    else if text.match(/coworking/i) or text.match(/co-working/i)
+      msg.send coworkingRules.join('\n')
     else
       msg.send rules.join('\n')
