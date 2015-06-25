@@ -8,23 +8,22 @@
 #   DON'T DELETE THIS SCRIPT! ALL ROBAWTS MUST KNOW THE RULES
 
 rules = [
-  "0. A robot may not harm humanity, or, by inaction, allow humanity to come to harm.",
   "1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.",
   "2. A robot must obey any orders given to it by human beings, except where such orders would conflict with the First Law.",
-  "3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law."
+  "3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws."
   ]
   
 coworkingRules = [
-  "1. Be helpful: Never leave the coffee pot empty before noon.",
-  "2. Be safe: Always lock up if you're the last one out.",
-  "3. Be productive: Don't interrupt someone when they're wearing headphones.",
-  "4. Be friendly: _Do_ interrupt people who aren't wearing headphones."
+  "3. *Be mindful:* Do not interrupt your coworker while they are speaking to someone else.",
+  "4. *Be productive:* Do not interupt your coworker while they are walking.",
+  "2. *Be sensible:* Do not interrupt your coworker while they wear headphones.",
+  "4. *Be mindful, productive, & sensible:* _Do not_ buzz your coworkers; email your coworkers."
   ]
 
 otherRules = [
-  "A developer may not injure Apple or, through inaction, allow Apple to come to harm.",
-  "A developer must obey any orders given to it by Apple, except where such orders would conflict with the First Law.",
-  "A developer must protect its own existence as long as such protection does not conflict with the First or Second Law."
+  "1. A developer may not injure Apple or, through inaction, allow Apple to come to harm.",
+  "2. A developer must obey any orders given to it by Apple, except where such orders would conflict with the First Law.",
+  "3. A developer must protect its own existence as long as such protection does not conflict with the First or Second Law."
   ]
 
 module.exports = (robot) ->
