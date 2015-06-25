@@ -14,9 +14,9 @@ rules = [
   ]
   
 coworkingRules = [
-  "3. *Be mindful:* Do not interrupt your coworker while they are speaking to someone else.",
-  "4. *Be productive:* Do not interupt your coworker while they are walking.",
-  "2. *Be sensible:* Do not interrupt your coworker while they wear headphones.",
+  "1. *Be mindful:* Do not interrupt your coworker while they are speaking to someone else.",
+  "2. *Be productive:* Do not interupt your coworker while they are walking.",
+  "3. *Be sensible:* Do not interrupt your coworker while they wear headphones.",
   "4. *Be mindful, productive, & sensible:* _Do not_ buzz your coworkers; email your coworkers."
   ]
 
